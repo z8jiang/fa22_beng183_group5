@@ -33,7 +33,9 @@ We will be focusing on neural networks as an alternative method of supervised le
 Neural Network, also known as Artificial Neural Network, are algorithms composed of an intricate network of nodes or neurons that model the human brain and how biological neurons communicate through signaling one another. It forms the base of deep learning, a subset of machine learning, and is often used to solve artificial intelligence problems. 
 
 <p align="center">
-  <img src="Neural_network.png" width="500" height="333">
+  <img src="Neural_network.png" width="500" height="333" />
+</p>
+
 <b>Figure 2</b>: Overall structure of the neural network [2]
 <br/><br/>
 
@@ -42,6 +44,7 @@ Neural networks composed of building blocks of layers, which comprises 3 main ca
 <p align="center">
   <img src="artificial_vs_biological.png" width="1000" height="333" />
 </p>
+
 <b>Figure 3</b>: Biological neural connection vs artificial neural connection [4]
 <br/><br/>
 
@@ -62,6 +65,7 @@ To reiterate, a neural network is composed of three parts, (1) the input layer, 
 </p>
   <img src="dnn_structure.jpg" width="500" height="333" />
 </p>
+
 <b>Figure 4</b>: The different layers of a deep neural network [5]
 <br/><br/>
 
@@ -70,8 +74,10 @@ The function of the input layer is to take in the input data. Each data example 
 Here is an example visualization of a neural network performing classification of an input data case. The input data is an image, and the function of the neural network is to classify what number is represented in the image. Each of the 784 pixels of the image are fed into one of the 784 nodes in the input layer. The data is propagated forward through the hidden layers until the highest probability result is revealed, which in this example is 2.
 <br/><br/>
 
-
+</p>
 <img src="https://thumbs.gfycat.com/EnviousNiftyCorydorascatfish-size_restricted.gif" width="500" height="333" />
+</p>
+
 <b>Figure 5</b>: Example visualization of neural network classifying image data [9]
 
 
