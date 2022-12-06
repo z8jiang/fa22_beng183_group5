@@ -29,13 +29,13 @@ We will be focusing on neural networks as an alternative method of supervised le
 
 Neural Network, also known as Artificial Neural Network, are algorithms composed of an intricate network of nodes or neurons that model the human brain and how biological neurons communicate through signaling one another. It forms the base of deep learning, a subset of machine learning, and is often used to solve artificial intelligence problems. 
 
-<img src="https://www.researchgate.net/publication/338015239/figure/fig1/AS:837473475248130@1576680644910/How-Neural-Network-relate-with-Human-Brain-Source-Google-Images-2019.jpg" width="500" height="333">
+<img src="Neural_network.png" width="500" height="333">
 <b>Figure 2</b>: Overall structure of the neural network [2]
 <br/><br/>
 
 Neural networks composed of building blocks of layers, which comprises 3 main categories: input layer, hidden layer and output layer. The information is passed through the input layer, and moving towards the middle layer, or “hidden layer”, where the nodes train themselves to determine the patterns of the data, and ultimately predict the output for a new set of similar data [3]. Nodes in one layer are connected to the next layer through channels, or links, which are assigned with a “weighted” value. 
 
-<img src="dnn_structure.jpg" width="500" height="333">
+<img src="artificial_vs_biological.png" width="500" height="333">
 <b>Figure 3</b>: Biological neural connection vs artificial neural connection [4]
 <br/><br/>
 
