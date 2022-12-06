@@ -4,7 +4,10 @@ FA22 BENG183 Group 5 final project write-up/ paper on neural network by Andrew S
 
 ### Overview
 
-<img src="https://bernardmarr.com/img/What%20is%20an%20Artificial%20Neural%20Networks.jpg" width="500" height="333">
+<p align="center">
+  <img src="https://bernardmarr.com/img/What%20is%20an%20Artificial%20Neural%20Networks.jpg" width="500" height="333" />
+</p>
+
 <b>Figure 1</b>: The potential of artificial neural networks is limitless! [7]
 <br/><br/>
 
@@ -29,14 +32,16 @@ We will be focusing on neural networks as an alternative method of supervised le
 
 Neural Network, also known as Artificial Neural Network, are algorithms composed of an intricate network of nodes or neurons that model the human brain and how biological neurons communicate through signaling one another. It forms the base of deep learning, a subset of machine learning, and is often used to solve artificial intelligence problems. 
 
+<p align="center">
 <img src="Neural_network.png" width="500" height="333">
 <b>Figure 2</b>: Overall structure of the neural network [2]
 <br/><br/>
 
 Neural networks composed of building blocks of layers, which comprises 3 main categories: input layer, hidden layer and output layer. The information is passed through the input layer, and moving towards the middle layer, or “hidden layer”, where the nodes train themselves to determine the patterns of the data, and ultimately predict the output for a new set of similar data [3]. Nodes in one layer are connected to the next layer through channels, or links, which are assigned with a “weighted” value. 
 
-
-<img src="artificial_vs_biological.png" width="1000" height="333" align="center">
+<p align="center">
+  <img src="artificial_vs_biological.png" width="1000" height="333">
+</p>
 <b>Figure 3</b>: Biological neural connection vs artificial neural connection [4]
 <br/><br/>
 
@@ -54,7 +59,9 @@ As a reminder, the overall goal of a neural network is to reach a final predicti
 
 To reiterate, a neural network is composed of three parts, (1) the input layer, (2) multiple hidden layers, and (3) an output layer. Each layer is composed of a node, which combines with other layers to create a web-like network of node connections. A node is a computational unit, and each node has a unique weight and threshold value. As input data is passed into a node, some set of calculations are performed and an output value is returned. If that output value is above the node’s specific threshold, then the data is passed along to another forward node. When a node is “activated” and the data is passed along, we call this process “activation.” Depending on what nodes are activated and where the data is passed along to, a predicted output is reached when the data reaches the end of the neural network [5].
 
-<img src="dnn_structure.jpg" width="500" height="333">
+</p>
+  <img src="dnn_structure.jpg" width="500" height="333">
+</p>
 <b>Figure 4</b>: The different layers of a deep neural network [5]
 <br/><br/>
 
