@@ -3,7 +3,6 @@ FA22 BENG183 Group 5 final project write-up/ paper on neural networks by Andrew 
 <br/><br/>
 
 ### Overview
-
 <p align="center">
   <img src="https://bernardmarr.com/img/What%20is%20an%20Artificial%20Neural%20Networks.jpg" width="500" height="333" />
 </p>
@@ -68,14 +67,14 @@ The artificial neural network model is often used for classification or clusteri
 
 As a reminder, the overall goal of a neural network is to reach a final prediction based on a trained model and input data. The final prediction is the result with the highest likelihood of occurring, and this likelihood is computed as the input data passes through the different layers of the model. 
 
-To reiterate, a neural network is composed of three parts, (1) the input layer, (2) multiple hidden layers, and (3) an output layer. Each layer is composed of a node, which combines with other layers to create a web-like network of node connections. A node is a computational unit, and each node has a unique weight and threshold value. As input data is passed into a node, some set of calculations are performed and an output value is returned. If that output value is above the node’s specific threshold, then the data is passed along to another forward node. When a node is “activated” and the data is passed along, we call this process “activation.” Depending on what nodes are activated and where the data is passed along, a predicted output is reached when the data reaches the end of the neural network [5].
+To reiterate, a neural network is composed of three parts, (1) the input layer, (2) multiple hidden layers, and (3) an output layer. Each layer is composed of a node, which combines with other layers to create a web-like network of node connections. A node is a computational unit, and each node has a unique weight and threshold value. As input data is passed into a node, some set of calculations are performed and an output value is returned. If that output value is above the node’s specific threshold, then the data is passed along to another forward node. When a node is “activated” and the data is passed along, we call this process “activation.” Depending on what nodes are activated and where the data is passed along, a predicted output is reached when the data reaches the end of the neural network [4].
 
 <p align="center">
   <img src="dnn_structure.jpg" width="500" height="333" />
 </p>
 
 <div align="center">
-  <b>Figure 4</b>: The different layers of a deep neural network [5]
+  <b>Figure 4</b>: The different layers of a deep neural network [4]
 </div>
 <br/><br/>
 
@@ -89,7 +88,7 @@ Here is an example visualization of a neural network performing the classificati
 </p>
 
 <div align="center">
-  <b>Figure 5</b>: Example visualization of neural network classifying image data [8]
+  <b>Figure 5</b>: Example visualization of neural network classifying image data [5]
 </div>
 
 
