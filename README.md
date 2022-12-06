@@ -25,6 +25,25 @@ We will be focusing on neural networks as an alternative method of supervised le
 
 <br/><br/>
 
+### What is a Neural Network?
+
+Neural Network, also known as Artificial Neural Network, are algorithms composed of an intricate network of nodes or neurons that model the human brain and how biological neurons communicate through signaling one another. It forms the base of deep learning, a subset of machine learning, and is often used to solve artificial intelligence problems. 
+
+<img src="dnn_structure.jpg" width="500" height="333">
+<b>Figure 2</b>: Overall structure of the neural network [2]
+<br/><br/>
+
+Neural networks composed of building blocks of layers, which comprises 3 main categories: input layer, hidden layer and output layer. The information is passed through the input layer, and moving towards the middle layer, or “hidden layer”, where the nodes train themselves to determine the patterns of the data, and ultimately predict the output for a new set of similar data [3]. Nodes in one layer are connected to the next layer through channels, or links, which are assigned with a “weighted” value. 
+
+<img src="dnn_structure.jpg" width="500" height="333">
+<b>Figure 3</b>: Biological neural connection vs artificial neural connection [4]
+<br/><br/>
+
+
+Let’s consider the visual learning process of the human brain as a high-level comparison between biological and artificial neural networks. Our eyes or retina would be analogous to the “input node” in the neural network, where the visual information is received to be transmitted and processed in the visual cortex of the brain, similar to the middle layers of the network [4]. As the human brain “learns” this new information, biological neurons inform each other, modified accordingly to form new connections, similar to how the nodes in an artificial neural network are trained through weight adjustment. 
+
+The artificial neural network model is often used for classification or clustering. As the algorithms could implement both supervised and unsupervised learning methods, neural networks present highly sophisticated and powerful machine learning tools that could be used to solve complex AI problems.
+
 
 ### How do Neural Networks work?
 
@@ -47,6 +66,8 @@ Here is an example visualization of a neural network performing classification o
 
 
 <br/><br/>
+
+
 
 
 ### Neural Network Applications
