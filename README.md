@@ -33,7 +33,7 @@ We will be focusing on neural networks as an alternative method of supervised le
 Neural Network, also known as Artificial Neural Network, are algorithms composed of an intricate network of nodes or neurons that model the human brain and how biological neurons communicate through signaling one another. It forms the base of deep learning, a subset of machine learning, and is often used to solve artificial intelligence problems. 
 
 <p align="center">
-<img src="Neural_network.png" width="500" height="333">
+  <img src="Neural_network.png" width="500" height="333">
 <b>Figure 2</b>: Overall structure of the neural network [2]
 <br/><br/>
 
