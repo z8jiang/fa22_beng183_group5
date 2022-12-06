@@ -1,5 +1,5 @@
 # fa22_beng183_group5
-FA22 BENG183 Group 5 final project write-up/ paper on neural network by Andrew Shen, Thomas Lee, and Zichen "Cardiff" Jiang
+FA22 BENG183 Group 5 final project write-up/ paper on neural networks by Andrew Shen, Thomas Lee, and Zichen "Cardiff" Jiang
 <br/><br/>
 
 ### Overview
@@ -8,10 +8,12 @@ FA22 BENG183 Group 5 final project write-up/ paper on neural network by Andrew S
   <img src="https://bernardmarr.com/img/What%20is%20an%20Artificial%20Neural%20Networks.jpg" width="500" height="333" />
 </p>
 
-<b>Figure 1</b>: The potential of artificial neural networks is limitless! [7]
+<div align="center">
+  <b>Figure 1</b>: The potential of artificial neural networks is limitless! [7]
+</div>
 <br/><br/>
 
-There exists many methods of supervised learning, with one example being neural networks. Neural networks are a supervised learning model based on the neural structure of the human brain. They can be used to perform classification of input data, and have much potential in the field of disease prediction.
+There exist many methods of supervised learning, with one example being neural networks. Neural networks are a supervised learning model based on the neural structure of the human brain. They can be used to perform the classification of input data, and have much potential in the field of disease prediction.
 
 
 <br/><br/>
@@ -28,24 +30,29 @@ We will be focusing on neural networks as an alternative method of supervised le
 
 <br/><br/>
 
-### What is a Neural Network?
 
-Neural Network, also known as Artificial Neural Network, are algorithms composed of an intricate network of nodes or neurons that model the human brain and how biological neurons communicate through signaling one another. It forms the base of deep learning, a subset of machine learning, and is often used to solve artificial intelligence problems. 
+### What are Neural Networks?
+
+Neural Networks, also known as Artificial Neural Networks, are algorithms composed of an intricate network of nodes or neurons that model the human brain and how biological neurons communicate through signaling one another. It forms the base of deep learning, a subset of machine learning, and is often used to solve artificial intelligence problems. 
 
 <p align="center">
   <img src="Neural_network.png" width="500" height="333" />
 </p>
 
-<b>Figure 2</b>: Overall structure of the neural network [2]
+<div align="center">
+  <b>Figure 2</b>: Overall structure of the neural network [2]
+</div>
 <br/><br/>
 
-Neural networks composed of building blocks of layers, which comprises 3 main categories: input layer, hidden layer and output layer. The information is passed through the input layer, and moving towards the middle layer, or “hidden layer”, where the nodes train themselves to determine the patterns of the data, and ultimately predict the output for a new set of similar data [3]. Nodes in one layer are connected to the next layer through channels, or links, which are assigned with a “weighted” value. 
+Neural networks are composed of building blocks of layers, which comprise 3 main categories: input layer, hidden layer and output layer. The information passes through the input layer and moves towards the middle layer, or “hidden layer”, where the nodes train themselves to determine the patterns of the data, and ultimately predict the output for a new set of similar data [3]. Nodes in one layer are connected to the next layer through channels, or links, which are assigned a “weighted” value. 
 
 <p align="center">
   <img src="artificial_vs_biological.png" width="1000" height="333" />
 </p>
 
-<b>Figure 3</b>: Biological neural connection vs artificial neural connection [4]
+<div align="center">
+  <b>Figure 3</b>: Biological neural connection vs artificial neural connection [4]
+</div>
 <br/><br/>
 
 
@@ -56,43 +63,46 @@ The artificial neural network model is often used for classification or clusteri
 
 <br/><br/>
 
+
 ### How do Neural Networks work?
 
-As a reminder, the overall goal of a neural network is to reach a final prediction based on a trained model and input data. The final prediction is the results with the highest likelihood of occurring, and this likelihood is computed as the input data passes through the different layers of the model. 
+As a reminder, the overall goal of a neural network is to reach a final prediction based on a trained model and input data. The final prediction is the result with the highest likelihood of occurring, and this likelihood is computed as the input data passes through the different layers of the model. 
 
-To reiterate, a neural network is composed of three parts, (1) the input layer, (2) multiple hidden layers, and (3) an output layer. Each layer is composed of a node, which combines with other layers to create a web-like network of node connections. A node is a computational unit, and each node has a unique weight and threshold value. As input data is passed into a node, some set of calculations are performed and an output value is returned. If that output value is above the node’s specific threshold, then the data is passed along to another forward node. When a node is “activated” and the data is passed along, we call this process “activation.” Depending on what nodes are activated and where the data is passed along to, a predicted output is reached when the data reaches the end of the neural network [5].
+To reiterate, a neural network is composed of three parts, (1) the input layer, (2) multiple hidden layers, and (3) an output layer. Each layer is composed of a node, which combines with other layers to create a web-like network of node connections. A node is a computational unit, and each node has a unique weight and threshold value. As input data is passed into a node, some set of calculations are performed and an output value is returned. If that output value is above the node’s specific threshold, then the data is passed along to another forward node. When a node is “activated” and the data is passed along, we call this process “activation.” Depending on what nodes are activated and where the data is passed along, a predicted output is reached when the data reaches the end of the neural network [5].
 
 <p align="center">
   <img src="dnn_structure.jpg" width="500" height="333" />
 </p>
 
-<b>Figure 4</b>: The different layers of a deep neural network [5]
+<div align="center">
+  <b>Figure 4</b>: The different layers of a deep neural network [5]
+</div>
 <br/><br/>
 
 The function of the input layer is to take in the input data. Each data example is split up into the nodes of the input layer to be processed and passed forward. The function of the hidden layers is to perform computations and determine what data is passed forward and where the data is passed. Finally, the function of the output layer is to predict the final classification label for the input data.
 
-Here is an example visualization of a neural network performing classification of an input data case. The input data is an image, and the function of the neural network is to classify what number is represented in the image. Each of the 784 pixels of the image are fed into one of the 784 nodes in the input layer. The data is propagated forward through the hidden layers until the highest probability result is revealed, which in this example is 2.
+Here is an example visualization of a neural network performing the classification of an input data case. The input data is an image, and the function of the neural network is to classify what number is represented in the image. Each of the 784 pixels of the image is fed into one of the 784 nodes in the input layer. The data is propagated forward through the hidden layers until the highest probability result is revealed, which in this example is 2.
 <br/><br/>
 
 <p align="center">
 <img src="https://thumbs.gfycat.com/EnviousNiftyCorydorascatfish-size_restricted.gif" width="500" height="333" />
 </p>
 
-<b>Figure 5</b>: Example visualization of neural network classifying image data [9]
+<div align="center">
+  <b>Figure 5</b>: Example visualization of neural network classifying image data [9]
+</div>
 
 
 <br/><br/>
-
-
 
 
 ### Neural Network Applications
 Neural network, specifically graphical neural network (GNN), opens the door to many applications. In the most ubiquitous case, GNN is used by companies like Amazon and Uber to suggest products for customers to buy and to predict fraudulent transactions [1] [2]. In biological sciences, a version of GNN termed Evoformer is used by AlphaFold2 to predict, with high accuracy, protein structures that are extremely tricky to solve experimentally through X-ray crystallography or cryo-EM [3]. In pharmacology, GNN is used to discover drug side effects.
 <br/><br/>
 
-![application](application.png "Figure 6: Adaptation of Sun et al’s workflow that uses graphical neural network to predict diseases.")
+![application](application.png "Figure 6: Adaptation of Sun et al’s workflow that uses a graphical neural network to predict diseases.")
 <div align="center">
-  <b>Figure 6</b>: Adaptation of Sun et al’s workflow that uses graphical neural network to predict diseases.
+  <b>Figure 6</b>: Adaptation of Sun et al’s workflow that uses a graphical neural network to predict diseases.
 </div>
 <br/><br/>
 
