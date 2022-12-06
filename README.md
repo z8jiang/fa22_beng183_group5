@@ -34,9 +34,13 @@ To reiterate, a neural network is composed of three parts, (1) the input layer, 
 The function of the input layer is to take in the input data. Each data example is split up into the nodes of the input layer to be processed and passed forward. The function of the hidden layers is to perform computations and determine what data is passed forward and where the data is passed. Finally, the function of the output layer is to predict the final classification label for the input data.
 
 Here is an example visualization of a neural network performing classification of an input data case. The input data is an image, and the function of the neural network is to classify what number is represented in the image. Each of the 784 pixels of the image are fed into one of the 784 nodes in the input layer. The data is propagated forward through the hidden layers until the highest probability result is revealed, which in this example is 2.
+<br/><br/>
 
-<b>Figure 5</b>: Example visualization of neural network classifying image data [9]
 
+![ex_gif](https://thumbs.gfycat.com/EnviousNiftyCorydorascatfish-size_restricted.gif)
+<div align="center">
+  <b>Figure 5</b>: Example visualization of neural network classifying image data [9]
+</div>
 
 <br/><br/>
 
