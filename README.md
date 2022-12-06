@@ -4,10 +4,7 @@ FA22 BENG183 Group 5 final project write-up/ paper on neural network by Andrew S
 
 ### Overview
 
-<p align="center">
-  <img src="https://bernardmarr.com/img/What%20is%20an%20Artificial%20Neural%20Networks.jpg" width="500" height="333" />
-</p>
-
+<img src="https://bernardmarr.com/img/What%20is%20an%20Artificial%20Neural%20Networks.jpg" width="500" height="333">
 <b>Figure 1</b>: The potential of artificial neural networks is limitless! [7]
 <br/><br/>
 
@@ -38,8 +35,8 @@ Neural Network, also known as Artificial Neural Network, are algorithms composed
 
 Neural networks composed of building blocks of layers, which comprises 3 main categories: input layer, hidden layer and output layer. The information is passed through the input layer, and moving towards the middle layer, or “hidden layer”, where the nodes train themselves to determine the patterns of the data, and ultimately predict the output for a new set of similar data [3]. Nodes in one layer are connected to the next layer through channels, or links, which are assigned with a “weighted” value. 
 
-<p align="center">
-<img src="artificial_vs_biological.png" width="1000" height="333">
+
+<img src="artificial_vs_biological.png" width="1000" height="333" align="center">
 <b>Figure 3</b>: Biological neural connection vs artificial neural connection [4]
 <br/><br/>
 
