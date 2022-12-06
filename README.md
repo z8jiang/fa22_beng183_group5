@@ -4,7 +4,10 @@ FA22 BENG183 Group 5 final project write-up/ paper on neural network by Andrew S
 
 ### Overview
 
-<img src="https://bernardmarr.com/img/What%20is%20an%20Artificial%20Neural%20Networks.jpg" width="500" height="333">
+<p align="center">
+  <img src="https://bernardmarr.com/img/What%20is%20an%20Artificial%20Neural%20Networks.jpg" width="500" height="333" />
+</p>
+
 <b>Figure 1</b>: The potential of artificial neural networks is limitless! [7]
 <br/><br/>
 
