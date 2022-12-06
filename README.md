@@ -51,7 +51,7 @@ Neural networks are composed of building blocks of layers, which comprise 3 main
 </p>
 
 <div align="center">
-  <b>Figure 3</b>: Biological neural connection vs artificial neural connection [4]
+  <b>Figure 3</b>: Biological neural connection vs artificial neural connection [3]
 </div>
 <br/><br/>
 
