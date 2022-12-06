@@ -40,7 +40,7 @@ Neural Network, also known as Artificial Neural Network, are algorithms composed
 Neural networks composed of building blocks of layers, which comprises 3 main categories: input layer, hidden layer and output layer. The information is passed through the input layer, and moving towards the middle layer, or “hidden layer”, where the nodes train themselves to determine the patterns of the data, and ultimately predict the output for a new set of similar data [3]. Nodes in one layer are connected to the next layer through channels, or links, which are assigned with a “weighted” value. 
 
 <p align="center">
-  <img src="artificial_vs_biological.png" width="1000" height="333">
+  <img src="artificial_vs_biological.png" width="1000" height="333" />
 </p>
 <b>Figure 3</b>: Biological neural connection vs artificial neural connection [4]
 <br/><br/>
@@ -60,7 +60,7 @@ As a reminder, the overall goal of a neural network is to reach a final predicti
 To reiterate, a neural network is composed of three parts, (1) the input layer, (2) multiple hidden layers, and (3) an output layer. Each layer is composed of a node, which combines with other layers to create a web-like network of node connections. A node is a computational unit, and each node has a unique weight and threshold value. As input data is passed into a node, some set of calculations are performed and an output value is returned. If that output value is above the node’s specific threshold, then the data is passed along to another forward node. When a node is “activated” and the data is passed along, we call this process “activation.” Depending on what nodes are activated and where the data is passed along to, a predicted output is reached when the data reaches the end of the neural network [5].
 
 </p>
-  <img src="dnn_structure.jpg" width="500" height="333">
+  <img src="dnn_structure.jpg" width="500" height="333" />
 </p>
 <b>Figure 4</b>: The different layers of a deep neural network [5]
 <br/><br/>
@@ -71,7 +71,7 @@ Here is an example visualization of a neural network performing classification o
 <br/><br/>
 
 
-<img src="https://thumbs.gfycat.com/EnviousNiftyCorydorascatfish-size_restricted.gif" width="500" height="333">
+<img src="https://thumbs.gfycat.com/EnviousNiftyCorydorascatfish-size_restricted.gif" width="500" height="333" />
 <b>Figure 5</b>: Example visualization of neural network classifying image data [9]
 
 
