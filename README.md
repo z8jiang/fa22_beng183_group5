@@ -1,8 +1,12 @@
 # fa22_beng183_group5
 FA22 BENG183 Group 5 final project write-up/ paper on neural network by Andrew Shen, Thomas Lee, and Zichen "Cardiff" Jiang
+<br/><br/>
 
+### Overview
 
+<img src="https://bernardmarr.com/img/What%20is%20an%20Artificial%20Neural%20Networks.jpg" width="500" height="333">
 <b>Figure 1</b>: The potential of artificial neural networks is limitless! [7]
+<br/><br/>
 
 There exists many methods of supervised learning, with one example being neural networks. Neural networks are a supervised learning model based on the neural structure of the human brain. They can be used to perform classification of input data, and have much potential in the field of disease prediction.
 
@@ -28,8 +32,9 @@ As a reminder, the overall goal of a neural network is to reach a final predicti
 
 To reiterate, a neural network is composed of three parts, (1) the input layer, (2) multiple hidden layers, and (3) an output layer. Each layer is composed of a node, which combines with other layers to create a web-like network of node connections. A node is a computational unit, and each node has a unique weight and threshold value. As input data is passed into a node, some set of calculations are performed and an output value is returned. If that output value is above the node’s specific threshold, then the data is passed along to another forward node. When a node is “activated” and the data is passed along, we call this process “activation.” Depending on what nodes are activated and where the data is passed along to, a predicted output is reached when the data reaches the end of the neural network [5].
 
-
+<img src="dnn_structure.jpg" width="500" height="333">
 <b>Figure 4</b>: The different layers of a deep neural network [5]
+<br/><br/>
 
 The function of the input layer is to take in the input data. Each data example is split up into the nodes of the input layer to be processed and passed forward. The function of the hidden layers is to perform computations and determine what data is passed forward and where the data is passed. Finally, the function of the output layer is to predict the final classification label for the input data.
 
@@ -37,10 +42,9 @@ Here is an example visualization of a neural network performing classification o
 <br/><br/>
 
 
-![ex_gif](https://thumbs.gfycat.com/EnviousNiftyCorydorascatfish-size_restricted.gif)
-<div align="center">
-  <b>Figure 5</b>: Example visualization of neural network classifying image data [9]
-</div>
+<img src="https://thumbs.gfycat.com/EnviousNiftyCorydorascatfish-size_restricted.gif" width="500" height="333">
+<b>Figure 5</b>: Example visualization of neural network classifying image data [9]
+
 
 <br/><br/>
 
