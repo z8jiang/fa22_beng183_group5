@@ -1,5 +1,5 @@
 # fa22_beng183_group5
-FA22 BENG183 Group 5 final project write-up/ paper on neural networks by Andrew Shen, Thomas Le, and Zichen "Cardiff" Jiang
+FA22 BENG183 Group 5 final project write-up/ paper on neural networks by Andrew Shen, Thomas Lee, and Zichen "Cardiff" Jiang
 <br/><br/>
 
 ### Overview
@@ -9,7 +9,7 @@ FA22 BENG183 Group 5 final project write-up/ paper on neural networks by Andrew 
 </p>
 
 <div align="center">
-  <b>Figure 1</b>: The potential of artificial neural networks is limitless! [7]
+  <b>Figure 1</b>: The potential of artificial neural networks is limitless! [1]
 </div>
 <br/><br/>
 
@@ -89,7 +89,7 @@ Here is an example visualization of a neural network performing the classificati
 </p>
 
 <div align="center">
-  <b>Figure 5</b>: Example visualization of neural network classifying image data [9]
+  <b>Figure 5</b>: Example visualization of neural network classifying image data [8]
 </div>
 
 
@@ -97,7 +97,7 @@ Here is an example visualization of a neural network performing the classificati
 
 
 ### Neural Network Applications
-Neural network, specifically graphical neural network (GNN), opens the door to many applications. In the most ubiquitous case, GNN is used by companies like Amazon and Uber to suggest products for customers to buy and to predict fraudulent transactions [1] [2]. In biological sciences, a version of GNN termed Evoformer is used by AlphaFold2 to predict, with high accuracy, protein structures that are extremely tricky to solve experimentally through X-ray crystallography or cryo-EM [3]. In pharmacology, GNN is used to discover drug side effects.
+Neural network, specifically graphical neural network (GNN), opens the door to many applications. In the most ubiquitous case, GNN is used by companies like Amazon and Uber to suggest products for customers to buy and to predict fraudulent transactions [6]. In biological sciences, a version of GNN termed Evoformer is used by AlphaFold2 to predict, with high accuracy, protein structures that are extremely tricky to solve experimentally through X-ray crystallography or cryo-EM [7]. In pharmacology, GNN is used to discover drug side effects.
 <br/><br/>
 
 ![application](application.png "Figure 6: Adaptation of Sun et al’s workflow that uses a graphical neural network to predict diseases.")
@@ -106,19 +106,18 @@ Neural network, specifically graphical neural network (GNN), opens the door to m
 </div>
 <br/><br/>
 
-We describe in detail how GNN can be used to diagnose patients (Fig. 6). The illustration is adapted from Zhenchao Sun et al’s work that was published in the IEEE Journal of Biomedical and Health Informatics in 2020 [4]. Imagine a patient record graph with patient nodes of over a thousand features like age, sex, weight, family history, and so on that are linked with their symptoms. There is also a medical record graph of disease nodes linked with their associated symptoms through edges. These two graphs are the inputs to the graph-based predictor, a GNN. The predictor algorithm aggregates the information or messages from neighboring nodes of a patient by varying the weight of these messages. The aggregated values form a row vector that represents the patient node. This representation is called embedding. If these nodes are graphed in space, the stronger the weight for a neighbor’s message, the closer the patient node and its neighbor are pulled together. After three to five layers or rounds of aggregating information and adjusting the weights, the GNN model predicts what diseases a patient may have.
+We describe in detail how GNN can be used to diagnose patients (Fig. 6). The illustration is adapted from Zhenchao Sun et al’s work that was published in the IEEE Journal of Biomedical and Health Informatics in 2020 [8]. Imagine a patient record graph with patient nodes of over a thousand features like age, sex, weight, family history, and so on that are linked with their symptoms. There is also a medical record graph of disease nodes linked with their associated symptoms through edges. These two graphs are the inputs to the graph-based predictor, a GNN. The predictor algorithm aggregates the information or messages from neighboring nodes of a patient by varying the weight of these messages. The aggregated values form a row vector that represents the patient node. This representation is called embedding. If these nodes are graphed in space, the stronger the weight for a neighbor’s message, the closer the patient node and its neighbor are pulled together. After three to five layers or rounds of aggregating information and adjusting the weights, the GNN model predicts what diseases a patient may have.
 
 
 <br/><br/>
 
 
 ### References
-1. IBM Cloud Education. “What Are Neural Networks?” IBM, https://www.ibm.com/cloud/learn/neural-networks. 
-2. Era-Iitk. “Brain and Artificial Neural Networks: Differences and Similarities.” Medium, Medium, 7 June 2020, https://medium.com/@eraiitk/brain-and-artificial-neural-networks-differences-and-similarities-1d337fe50168. 
-3. Bernard Marr. “What Is an Artificial Neural Networks?” Bernard Marr, 13 July 2021, https://bernardmarr.com/what-is-an-artificial-neural-networks/. 
-4. Mijwil, Maad M. “Artificial Neural Networks Advantages and Disadvantages.” LinkedIn, 9 Mar. 2018, https://www.linkedin.com/pulse/artificial-neural-networks-advantages-disadvantages-maad-m-mijwel/. 
+1. Bernard Marr. “What Is an Artificial Neural Networks?” Bernard Marr, 13 July 2021, https://bernardmarr.com/what-is-an-artificial-neural-networks/. 
+2. Mijwil, Maad M. “Artificial Neural Networks Advantages and Disadvantages.” LinkedIn, 9 Mar. 2018, https://www.linkedin.com/pulse/artificial-neural-networks-advantages-disadvantages-maad-m-mijwel/. 
+3. Era-Iitk. “Brain and Artificial Neural Networks: Differences and Similarities.” Medium, Medium, 7 June 2020, https://medium.com/@eraiitk/brain-and-artificial-neural-networks-differences-and-similarities-1d337fe50168. 
+4. IBM Cloud Education. “What Are Neural Networks?” IBM, https://www.ibm.com/cloud/learn/neural-networks. 
 5. Gfycat. “Best Neural Network Gifs.” Gfycat, https://gfycat.com/gifs/search/neural+network. 
 6. Wang, Zichen, and Vassilis N. Ioannidis. “How AWS Uses Graph Neural Networks to Meet Customer Needs.” Amazon Science, Amazon Science, 24 Mar. 2022, https://www.amazon.science/blog/how-aws-uses-graph-neural-networks-to-meet-customer-needs. 
-7. Wang, Zichen, and Vassilis N. Ioannidis. “How AWS Uses Graph Neural Networks to Meet Customer Needs.” Amazon Science, Amazon Science, 24 Mar. 2022, https://www.amazon.science/blog/how-aws-uses-graph-neural-networks-to-meet-customer-needs. 
-8. Jumper, John, et al. “Highly Accurate Protein Structure Prediction with Alphafold.” Nature, vol. 596, no. 7873, 2021, pp. 583–589., https://doi.org/10.1038/s41586-021-03819-2. 
-9. Sun, Zhenchao, et al. “Disease Prediction via Graph Neural Networks.” IEEE Journal of Biomedical and Health Informatics, vol. 25, no. 3, 2021, pp. 818–826., https://doi.org/10.1109/jbhi.2020.3004143. 
+7. Jumper, John, et al. “Highly Accurate Protein Structure Prediction with Alphafold.” Nature, vol. 596, no. 7873, 2021, pp. 583–589., https://doi.org/10.1038/s41586-021-03819-2. 
+8. Sun, Zhenchao, et al. “Disease Prediction via Graph Neural Networks.” IEEE Journal of Biomedical and Health Informatics, vol. 25, no. 3, 2021, pp. 818–826., https://doi.org/10.1109/jbhi.2020.3004143. 
